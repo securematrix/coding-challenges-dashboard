@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Challenges Dashboard",
+  "version": "1.0.0",
+  "description": "A production-quality custom new tab dashboard for Coding Challenges.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "host_permissions": [
+    "https://api.github.com/*"
+  ],
+  "action": {}
+}

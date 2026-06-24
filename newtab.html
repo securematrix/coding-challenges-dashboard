@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenges Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="dashboard-container">
+        <header class="hero-section">
+            <h1 id="main-title" class="title">CODING CHALLENGES&gt;_</h1>
+            <div class="clock-container">
+                <div id="clock" class="clock">00:00:00</div>
+                <div id="date" class="date">Loading date...</div>
+            </div>
+        </header>
+
+        <section class="data-section">
+            <div class="section-card">
+                <h2 class="section-header">SharedSolutions Open PRs</h2>
+                <div id="pr-list-container" class="pr-list-container">
+                    <div class="loader">Fetching latest pull requests...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modular Script Loading -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
